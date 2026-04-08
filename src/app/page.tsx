@@ -203,6 +203,7 @@ export default function Home() {
             </div>
           </div>
           <div className="copyright">
+            <a href="#" className="cta-button" style={{ display: 'inline-block', marginBottom: '40px', backgroundColor: 'transparent', border: '2px solid white' }}>Back to Top ↑</a>
             <p>&copy; 2026 Bhau's Pizza Bidar. All Rights Reserved. Designed with ❤️ for Bhau.</p>
           </div>
         </div>

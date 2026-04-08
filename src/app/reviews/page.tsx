@@ -66,9 +66,11 @@ export default function ReviewPage() {
         </div>
       </section>
 
-      <footer>
-        <div className="container">
-          <div className="copyright">
+      <footer style={{ background: '#0b0d10', color: 'white', padding: '60px 0 20px' }}>
+        <div className="container" style={{ textAlign: 'center' }}>
+          <div className="footer-logo" style={{ marginBottom: '30px' }}>Bhau's<span>Pizza</span></div>
+          <a href="/" className="cta-button" style={{ display: 'inline-block', marginBottom: '40px' }}>Back to Home Page</a>
+          <div className="copyright" style={{ borderTop: '1px solid #333', paddingTop: '20px' }}>
             <p>&copy; 2026 Bhau's Pizza Bidar. All Rights Reserved.</p>
           </div>
         </div>
