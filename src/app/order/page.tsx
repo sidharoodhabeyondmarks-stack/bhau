@@ -79,7 +79,16 @@ export default function OrderPage() {
               </div>
             </div>
 
-            <button className="cta-button" style={{ width: '100%', padding: '18px', fontSize: '18px' }}>Place Order Now</button>
+            <button className="cta-button" style={{ width: '100%', padding: '18px', fontSize: '18px', marginBottom: '20px' }}>Place Order Now</button>
+            
+            <a href="/" style={{ 
+              display: 'block', 
+              textAlign: 'center', 
+              color: '#006491', 
+              fontWeight: '700', 
+              textDecoration: 'underline',
+              marginTop: '10px'
+            }}>← Back to Home</a>
           </div>
         </div>
       </section>
